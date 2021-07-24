@@ -19,6 +19,14 @@ $(document).ready(function(){
     $('.pop-up').removeClass('show');
     $('.pop-wrap').removeClass('show');
   });
+  $('#prueba').click(function(){
+    $('.pop-up').addClass('show');
+    $('.pop-wrap').addClass('show');
+  });
+  $('#ServicioDivorcio').click(function(){
+    $('.pop-up').addClass('show');
+    $('.pop-wrap').addClass('show');
+  });
   /*$('#enviarFormulario').click(function(){
     $('.pop-up').removeClass('show');
     $('.pop-wrap').removeClass('show');

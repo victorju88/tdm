@@ -3,12 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Trámites digitales en México</title>
+  <title>Trámites digitales México</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/site.webmanifest">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
   <!-- Vendor CSS Files -->
@@ -147,11 +149,11 @@
               <div class="portfolio-wrap">
                 <img src="assets/img/ServicioDivorcio.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4><a href="#Alta">Date de Alta</a></h4>
+                  <h4><a>Date de Alta</a></h4>
                   <p>Registra tu negocio</p>
                   <div>
                     <a href="assets/img/ServicioDivorcio.jpg" data-gallery="portfolioGallery" title="Aumenta tus ganacias con la expedición de actas de Divorcio" class="portfolio-lightbox link-preview"><i class="bi bi-plus"></i></a>
-                    <a href="mensaje.html" class="link-details" title="Alta"><i class="bi bi-link"></i></a>
+                    <a id="ServicioDivorcio" class="link-details" title="Alta"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -178,7 +180,7 @@
                   <h4><a href="mensaje.html">Date de Alta</a></h4>
                   <p>Registra tu negocio</p>
                   <div>
-                    <a href="assets/img/ServicioNacimiento.jpg" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Aumenta tus ganacias con la expedición de actas de Nacimiento"><i class="bi bi-plus"></i></a>
+                    <a href="assets/img/ServicioNacimiento.webp" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Aumenta tus ganacias con la expedición de actas de Nacimiento"><i class="bi bi-plus"></i></a>
                     <a href="mensaje.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
@@ -262,8 +264,8 @@
                   <h4><a href="mensaje.html">Date de Alta</a></h4>
                   <p>Registra tu negocio</p>
                   <div>
-                    <a href="assets/img/portfolio/web1.jpg" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Web 1"><i class="bi bi-plus"></i></a>
-                    <a href="mensaje.html" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
+                    <a href="assets/img/ServicioAltaCurp.webp" class="portfolio-lightbox link-preview" data-gallery="portfolioGallery" title="Aumenta tus ganacias con las Altas d Curp"><i class="bi bi-plus"></i></a>
+                    <a id="AltaCurp" class="link-details" title="More Details"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
               </div>
@@ -316,7 +318,7 @@
                      <br />
                   <div class="row">
                       <div class="col">
-                         <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto">
+                         <input type="text" class="form-control" name="subject" id="subject" placeholder="Empresa">
                       </div>
                       <div class="col">
                         <input type="text" class="form-control" name="phone" id="phone" placeholder="WhatsApp">
@@ -337,42 +339,6 @@
           </div>
         </div>
       </div>
-
-<!-- Modal -->
-
-      <!--<div class="form" style="font-family: 'Otomanopee One', sans-serif;">
-                <div id="formulario" >
-                    <div class="row">
-                        <div class="form-group col-lg-6">
-                           <input type="text" name="username" class="form-control" id="username" placeholder="Escribe tu nombre" required>
-                        </div>
-                        <div class="form-group col-lg-6 mt-3 mt-lg-0">
-                          <input type="email" class="form-control" name="email" id="email" placeholder="Escribe tu correo" required>
-                        </div>
-                    </div>
-                       <br />
-                    <div class="row">
-                        <div class="col">
-                           <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto">
-                        </div>
-                        <div class="col">
-                          <input type="text" class="form-control" name="phone" id="phone" placeholder="WhatsApp">
-                        </div>
-                        <div class="form-group mt-3">
-                          <input type="text" class="form-control" name="message" id="message" rows="5" placeholder="Mensaje" required></input>
-                        </div>
-                    </div>
-                    <div class="text-center">
-                      <button id="enviarFormulario" onclick="correo();" title="Send Message">
-                        Enviar Mensaje
-                      </button>
-                    </div>
-                </div>
-            </div>
-
-      -->
-      <!--Fin Modal-->
-
     <section id="team" class="">
       <div class="container">
           <div class="row">
@@ -635,29 +601,29 @@
               <div id="formulario" >
                 <div class="row">
                   <div class="form-group col-lg-6">
-                    <input type="text" name="username" class="form-control" id="username" placeholder="Escribe tu nombre" required>
+                    <input type="text" name="username" class="form-control" id="username2" placeholder="Escribe tu nombre" required>
                   </div>
                   <div class="form-group col-lg-6 mt-3 mt-lg-0">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Escribe tu correo" required>
+                    <input type="email" class="form-control" name="email" id="email2" placeholder="Escribe tu correo" required>
                   </div>
                 </div>
                 <br />
                 <div class="row">
                   <div class="col">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Empresa">
+                    <input type="text" class="form-control" name="subject" id="subject2" placeholder="Empresa">
                   </div>
                   <div class="col">
-                    <input type="text" class="form-control" name="phone" id="phone" placeholder="WhatsApp">
+                    <input type="text" class="form-control" name="phone" id="phone2" placeholder="WhatsApp">
                   </div>
                 <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="message" id="message" rows="5" placeholder="Mensaje" required></input>
+                  <input type="text" class="form-control" name="message" id="message2" rows="5" placeholder="Mensaje" required></input>
                 </div>
                 <div class="my-3">
                   <!--<div class="loading">Enviando..</div>
                   <div class="error-message"></div>
                   <div class="sent-message">Tu mensaje ha sido enviado. Gracias!</div>-->
                 </div>
-                <div class="text-center"><button id="enviarFormulario" onclick="correo();" title="Send Message">Enviar Mensaje</button></div>
+                <div class="text-center"><button id="enviarFormulario" onclick="correo2();" title="Send Message">Enviar Mensaje</button></div>
               </div>
               
             </div>
@@ -731,10 +697,10 @@
           let anio = fecha.getFullYear();
           document.write(anio);
         </script>
-        &copy; - <strong>Tramites en línea México</strong>. 
+        &copy; - <strong>Tramites Digitales México</strong>. 
       </div>
       <div class="credits">
-      Todos los derechos reservados <a href="https://ceuss.edu.mx">Trámites en línea México</a>
+      Todos los derechos reservados <a href="https://ceuss.edu.mx">Trámites Digitales México</a>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -752,7 +718,7 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="https://kit.fontawesome.com/a5ae0c35f3.js" crossorigin="anonymous"></script>
   <script src="js/enviar.js"></script>
-
+  <script src="js/sweetalert2@11.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 </body>
