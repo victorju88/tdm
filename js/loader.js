@@ -27,6 +27,31 @@ $(document).ready(function(){
     $('.pop-up').addClass('show');
     $('.pop-wrap').addClass('show');
   });
+  $('#ServicioDefuncion').click(function(){
+    $('.pop-up').addClass('show');
+    $('.pop-wrap').addClass('show');
+  });
+  $('#ServicioNacimiento').click(function(){
+    $('.pop-up').addClass('show');
+    $('.pop-wrap').addClass('show');
+  });
+  $('#ServicioCorreccionCurp').click(function(){
+    $('.pop-up').addClass('show');
+    $('.pop-wrap').addClass('show');
+  });
+  $('#ServicioFiscal').click(function(){
+    $('.pop-up').addClass('show');
+    $('.pop-wrap').addClass('show');
+  });
+  $('#ServicioMatrimonio').click(function(){
+    $('.pop-up').addClass('show');
+    $('.pop-wrap').addClass('show');
+  });
+  $('#ServicioHomonimias').click(function(){
+    $('.pop-up').addClass('show');
+    $('.pop-wrap').addClass('show');
+  });
+  ServicioFiscal
   /*$('#enviarFormulario').click(function(){
     $('.pop-up').removeClass('show');
     $('.pop-wrap').removeClass('show');
